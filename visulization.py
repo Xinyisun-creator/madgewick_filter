@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-df1 = pd.read_csv('position/IMU1_position.csv')
-df2 = pd.read_csv('position/IMU2_position.csv')
-df3 = pd.read_csv('position/IMU3_position.csv')
+df1 = pd.read_csv('./position/IMU1_position.csv')
+df2 = pd.read_csv('./position/IMU2_position.csv')
+df3 = pd.read_csv('./position/IMU3_position.csv')
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
