@@ -8,3 +8,5 @@ def butter_lowpass_filter(data, cutoff, fs, order):
     b, a = butter(order, normal_cutoff, btype='low', analog=False)
     y = lfilter(b, a, data)
     return y
+
+#
